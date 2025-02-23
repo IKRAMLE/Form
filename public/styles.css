@@ -1,0 +1,107 @@
+body {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9; 
+    background-image: url(https://i.pinimg.com/474x/f6/3b/77/f63b776781b03bcab790b4b7e685c6c5.jpg);
+}
+
+.container {
+    width: 100%;
+    max-width: 50%;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    border: 3px solid rgb(155, 66, 80);
+    background-color: rgb(212, 158, 158);
+    
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #000000;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+select {
+    width: 99%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus, select:focus {
+    border-color: #7a9cc7;
+    box-shadow: 0 0 4px rgba(122, 156, 199, 0.5);
+}
+
+.gender {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: -4px;
+    
+}
+
+.gender label {
+   display: flex;
+   justify-content: space-between;
+  margin-bottom: 5px;
+  padding-top: 6px;
+   
+}
+.gender input[type="radio"] {
+    margin-right: 6px; 
+}
+.file input{
+    width: 95%;
+}
+
+button {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(146, 66, 79);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 99%;
+}
+
+button:hover {
+    background-color: #e48b8b;
+}
